@@ -1,0 +1,5 @@
+let certURL = "http://localhost:8000/login"
+let adminValidusername="admin@admin.com"
+let adminValidPassword = "Wipro@123"
+let adminInvalidPassword = "changeme"
+let adminInvalidUsername = "admin@ad.com"
