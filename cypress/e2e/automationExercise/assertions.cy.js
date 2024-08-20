@@ -7,7 +7,7 @@ describe('Assertions testing', () => {
         cy.visit("https://www.automationexercise.com/")
         cy.get('a[href="/products"]').should('be.visible').click();
         cy.get('a[href="#Women"]').should('be.visible').click();
-        
+        //comment
         //cy.url().should('not.contain', 7)
         //cy.visit("https://www.automationexercise.com/category_products/1")
         //cy.get("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rs. 500'])[2]/following::a[1]")
